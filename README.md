@@ -40,5 +40,31 @@ pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 jupyter notebook
 ```
 
+
+
+## 📁 Production Directory Structure
+
+```text
+📁 ml-titanic-survival/
+├── 📄 README.md
+├── 📄 Titanic_Guide.ipynb
+├── 📁 config/
+│   └── 📄 settings.yaml
+├── 📄 requirements.txt
+├── 📁 src/
+│   ├── 📄 __init__.py
+│   └── 📄 config.py
+└── 📁 tests/
+    ├── 📄 __init__.py
+    └── 📄 test_smoke.py
+```
+
+## 🧪 Running Automated Tests
+
+To run the automated production test suite, execute:
+
+```bash
+pytest tests/  # or python -m unittest discover -s tests
+```
 ## 📝 License
 MIT License

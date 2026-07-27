@@ -1,0 +1,4 @@
+# Production settings for ml-titanic-survival
+app_name: ml-titanic-survival
+version: 1.0.0
+environment: production
